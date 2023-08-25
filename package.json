@@ -1,6 +1,6 @@
 {
   "name": "@memba-labs/design-system",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "MIT",
   "author": "mikeathers",
   "description": "This is a design system for [Memba](https://memba.co.uk/). All components can be viewed at [Storybook](https://storybook.memba.co.uk).",
