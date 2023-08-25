@@ -11,3 +11,4 @@ prettier.config.js
 .prettierignore
 __mocks__
 webpack.config.js
+dist
