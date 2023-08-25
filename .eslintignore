@@ -11,4 +11,6 @@ prettier.config.js
 .prettierignore
 __mocks__
 webpack.config.js
+rollup.config.js
+rollup.config.ts
 dist
