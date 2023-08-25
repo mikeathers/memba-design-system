@@ -1,8 +1,7 @@
-'use client'
-import type React from 'react'
+import React from 'react'
 
-import {colors, iconTokens} from '@/styles'
-import type {Colors} from '@/styles/types'
+import {colors, iconTokens} from '../../styles'
+import type {Colors} from '../../styles'
 
 import Apple from '../../../public/assets/icons/apple.svg'
 import RightArrow from '../../../public/assets/icons/arrow-right.svg'

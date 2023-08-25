@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components'
 
-import {borderRadius, colors, fontSizes, spacing} from '@/styles'
+import {borderRadius, colors, fontSizes, spacing} from '../../styles'
 
 import type {ButtonProps} from './button.component'
 

@@ -1,19 +1,18 @@
-'use client'
-import type React from 'react'
-import { FormikError } from '@memba-labs/shared'
-import type {Spacing} from '@/styles'
-import {colorTokens, iconTokens, spacingTokens} from '@/styles'
+import React, {useState} from 'react'
 
+import {FormikError} from '@memba-labs/shared'
+
+import type {Spacing} from '../../styles'
+import {colorTokens, iconTokens, spacingTokens} from '../../styles'
+import {SvgIcon} from '../svg-icon'
 import {Text} from '../text'
+
 import {
   Container,
   RightIconWrapper,
   StyledTextInput,
   TextInputWrapper,
 } from './text-input.styles'
-import {SvgIcon} from '../svg-icon'
-import {useState} from 'react'
-
 
 export interface TextInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   $marginBottomX?: keyof Spacing

@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components'
 
-import type {Colors, Spacing} from '@/styles'
+import type {Colors, Spacing} from '../../styles'
 import {
   colors,
   fontSizes,
@@ -9,7 +9,7 @@ import {
   lineHeights,
   mediaQueries,
   spacing,
-} from '@/styles'
+} from '../../styles'
 
 export interface StyledTextProps {
   color?: keyof Colors

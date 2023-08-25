@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {colors, mediaQueries, spacing} from '@/styles'
+import {colors, mediaQueries, spacing} from '../../styles'
 
 export const Container = styled.div`
   position: absolute;

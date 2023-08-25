@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, {css} from 'styled-components'
 
-import {Spacing, spacing} from '@/styles'
+import {Spacing, spacing} from '../../styles'
 
 export interface StyledTextLinkProps
   extends React.AnchorHTMLAttributes<HTMLAnchorElement> {

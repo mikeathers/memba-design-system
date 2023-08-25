@@ -1,8 +1,9 @@
-'use client'
 import React from 'react'
-import {Container, Content, Icon} from '../toasts.styles'
+
 import {SvgIcon} from '../../svg-icon'
-import {colorTokens, iconTokens} from '@/styles'
+import {colorTokens, iconTokens} from '../../../styles'
+
+import {Container, Content, Icon} from '../toasts.styles'
 
 interface SuccessToastProps {
   children: React.ReactNode

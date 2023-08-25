@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {spacing} from '@/styles'
+import {spacing} from '../styles'
 
 export * from './svg-icon'
 export * from './text'

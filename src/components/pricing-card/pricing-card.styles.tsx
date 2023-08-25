@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import {
   borderRadius,
   colors,
@@ -6,7 +7,8 @@ import {
   fontWeights,
   mediaQueries,
   spacing,
-} from '@/styles'
+} from '../../styles'
+
 import {Text} from '../text'
 
 export const Container = styled.div`

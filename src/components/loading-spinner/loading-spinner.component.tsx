@@ -1,5 +1,7 @@
-'use client'
 import React from 'react'
+
+import {colors, Colors} from '../../styles'
+
 import {
   Container,
   StyledCircle,
@@ -7,7 +9,6 @@ import {
   StyledLoadingSpinnerProps,
   StyledPath,
 } from './loading-spinner.styles'
-import {colors, Colors} from '@/styles'
 
 /**
  * Required for button loading states but not officially part of the design system (yet) so hidden in the button directory

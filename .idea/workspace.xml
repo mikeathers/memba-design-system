@@ -5,162 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce86137d-1a3b-4d7b-9fd5-3e0a7f806164" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/action.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/commit-msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/post-merge" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/memba-design-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__mocks__/svgMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/build/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/cdk.context.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/cdk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/assume-role.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/lint_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/certificate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/cloudfront/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/functions/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/headers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/logging/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/route53/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/s3/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/deployment-stack.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/deployment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/jest-setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/api-gateway-event.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.eslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lint-staged.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/checkbox-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/checkbox-on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/connection-lost.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/devices.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/electric.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/external-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/forward.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/help.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/hidden.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/information.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/online.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/plus-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/remove.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/savings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/sign-out.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/tick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/usage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/visible.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/center-box/center-box.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/center-box/center-box.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/center-box/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading/loading.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading/loading.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing-card.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing.card.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/icons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/svg-icon.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-input/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-input/text-input.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-input/text-input.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-link/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-link/text-link.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text-link/text-link.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text/text.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text/text.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title-bar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/error/error.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/error/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/success/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/success/success.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toasts/toasts.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/tokens.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/cognito/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/locales/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/state/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test-support/resolver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rollup.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.rollup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/center-box/center-box.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/center-box/center-box.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/center-box/center-box.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/center-box/center-box.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loading/loading.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loading/loading.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pricing-card/pricing-card.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing-card.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pricing-card/pricing.card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing.card.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg-icon/svg-icon.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg-icon/svg-icon.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-input/text-input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-input/text-input.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-input/text-input.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-input/text-input.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-link/text-link.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-link/text-link.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-link/text-link.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-link/text-link.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text/text.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/text.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text/text.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/text.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/title-bar/title-bar.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/title-bar/title-bar.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toasts/error/error.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toasts/error/error.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toasts/success/success.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toasts/success/success.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toasts/toasts.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toasts/toasts.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tokens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tokens.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,25 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/michaelatherton/Development/memba/memba-design-system",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/michaelatherton/Development/memba/memba-design-system/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/michaelatherton/Development/memba/memba-design-system/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/michaelatherton/Development/memba/memba-design-system/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michaelatherton/Development/memba/memba-design-system&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/michaelatherton/Development/memba/memba-design-system/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/michaelatherton/Development/memba/memba-design-system/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -218,11 +98,16 @@
       <workItem from="1692890583637" duration="3112000" />
       <workItem from="1692944585838" duration="334000" />
       <workItem from="1692944927389" duration="6135000" />
-      <workItem from="1692952239742" duration="802000" />
+      <workItem from="1692952239742" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rollup.config.js" />
+      </list>
+    </option>
   </component>
 </project>

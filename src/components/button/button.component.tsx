@@ -1,7 +1,6 @@
-'use client'
-import type React from 'react'
+import React from 'react'
 
-import type {Spacing} from '@/styles'
+import type {Spacing} from '../../styles'
 
 import {StyledButton, StyledLoadingContainer} from './button.styles'
 import {LoadingSpinner} from '../loading-spinner'

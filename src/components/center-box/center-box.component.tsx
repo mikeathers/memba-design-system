@@ -1,9 +1,11 @@
-'use client'
 import React, {useEffect, useState} from 'react'
-import {Container, Content, FormContainer, TitleContainer} from './center-box.styles'
-import {colorTokens} from '@/styles'
-import {Text} from '../text'
+
 import {useMembaDetails} from '@memba-labs/shared'
+
+import {colorTokens} from '../../styles'
+import {Text} from '../text'
+
+import {Container, Content, FormContainer, TitleContainer} from './center-box.styles'
 
 interface CenterBoxProps {
   children: React.ReactNode

@@ -1,4 +1,17 @@
-import type React from 'react'
+import React, {useEffect, useState} from 'react'
+import Link from 'next/link'
+
+import {
+  useComponentVisible,
+  useSafeAsync,
+  useMembaDetails,
+  useAuth,
+  sentenceCase,
+} from '@memba-labs/shared'
+
+import {Text} from '../text'
+import {LoadingSpinner} from '../loading-spinner'
+import {spacingTokens} from '../../styles'
 
 import {
   ActionButton,
@@ -14,14 +27,6 @@ import {
   NameContainer,
   RightContent,
 } from './title-bar.styles'
-import {Text} from '../text'
-
-import {useComponentVisible, useSafeAsync, useMembaDetails, useAuth, sentenceCase} from '@memba-labs/shared'
-
-import {spacingTokens} from '@/styles'
-import {useEffect, useState} from 'react'
-import {LoadingSpinner} from '../loading-spinner'
-import Link from 'next/link'
 
 interface TitleBarProps {
   routes: {

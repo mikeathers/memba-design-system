@@ -1,7 +1,8 @@
-'use client'
-import type React from 'react'
+import React from 'react'
 
-import {spacingTokens} from '@/styles'
+import {spacingTokens} from '../../styles'
+import {Text} from '../text'
+import {Button} from '../button'
 
 import {
   Container,
@@ -11,8 +12,6 @@ import {
   TitleText,
   TransactionalCost,
 } from './pricing-card.styles'
-import {Text} from '../text'
-import {Button} from '../button'
 
 interface PricingCardProps {
   titleNumber: string

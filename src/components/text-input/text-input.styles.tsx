@@ -1,6 +1,8 @@
 import styled, {css} from 'styled-components'
-import {borderRadius, colors, fontSizes, spacing} from '@/styles'
-import type {TextInputProps} from '@/components'
+
+import {borderRadius, colors, fontSizes, spacing} from '../../styles'
+
+import type {TextInputProps} from './text-input.component'
 
 export const Container = styled.div`
   margin-bottom: ${spacing.space3x};

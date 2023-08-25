@@ -1,5 +1,4 @@
-'use client'
-import type React from 'react'
+import React from 'react'
 
 import type {StyledTextProps} from './text.styles'
 import {

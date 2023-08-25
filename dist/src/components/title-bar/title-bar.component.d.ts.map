@@ -1,0 +1,1 @@
+{"version":3,"file":"title-bar.component.d.ts","sourceRoot":"","sources":["../../../../src/components/title-bar/title-bar.component.tsx"],"names":[],"mappings":"AAAA,OAAO,KAA4B,MAAM,OAAO,CAAA;AA8BhD,UAAU,aAAa;IACrB,MAAM,EAAE;QACN,eAAe,EAAE,MAAM,CAAA;QACvB,WAAW,EAAE,MAAM,CAAA;KACpB,CAAA;CACF;AACD,eAAO,MAAM,QAAQ,UAAW,aAAa,sBA6F5C,CAAA"}

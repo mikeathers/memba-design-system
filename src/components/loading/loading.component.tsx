@@ -1,9 +1,10 @@
-'use client'
 import React from 'react'
-import {Container, LoadingContainer} from './loading.styles'
+
 import {Text} from '../text'
 import {LoadingSpinner} from '../loading-spinner'
-import {colorTokens, spacingTokens} from '@/styles'
+import {colorTokens, spacingTokens} from '../../styles'
+
+import {Container, LoadingContainer} from './loading.styles'
 
 export const Loading: React.FC = () => {
   return (
